@@ -1,0 +1,14 @@
+.ul-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 0px;
+    padding: 10px 0px; 
+
+    background-color: #fefe;
+    max-height: 60px;
+}
+.ul-navbar li {
+    list-style: none;
+}

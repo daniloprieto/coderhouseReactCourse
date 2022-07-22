@@ -1,13 +1,17 @@
 import React from 'react'
+import "./navbar.css"
+import CartWidget from './CartWidget'
 
 const Navbar = () => {
+    const nameList = ['Home', 'Proyectos', 'Nostoros', 'Contactanos'];
+    
     return (
         
-        <ul style={{display:"flex", justifyContent: "space-around"}}>
-            <li>Home</li>
-            <li>Proyectos</li>
-            <li>Nosotros</li>
-            <li>Contactanos</li>
+        <ul className='ul-navbar'>
+            {nameList.map( name => {
+                return <li>{name}</li>
+            })}
+            <li><CartWidget/></li>
         </ul>
         
     )
