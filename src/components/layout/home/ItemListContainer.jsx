@@ -1,8 +1,15 @@
+import ItemCount from "./ItemCount"
+
 const ItemListContainer = ({name}) =>{
     return(
-        <h2>
-            Buenas noches {name}
-        </h2>
+        <div>
+            <h2>
+                Buenas noches {name}
+            </h2>
+            <hr/>
+            <ItemCount initial={1} stock={5} nameProduct={'Short de futbol'}/>
+        </div>
+        
     )
 }
 

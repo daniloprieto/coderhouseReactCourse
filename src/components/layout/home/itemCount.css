@@ -1,0 +1,25 @@
+.container{
+    width: 250px;
+    margin: 0px auto;
+    padding: 5px;
+    border: 1px solid #E2DCC8;
+    border-radius: 3px;
+}
+.controls{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    border: none;
+    background-color: transparent;
+}
+
+.btn-select{
+    width: 180px;
+    padding: 3px 0px;
+    font-size: 14px;
+    color: #0F3D3E;
+    border: 1px solid #0F3D3E;
+    border-radius: 3px;
+}

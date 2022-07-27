@@ -8,8 +8,8 @@ const Navbar = () => {
     return (
         
         <ul className='ul-navbar'>
-            {nameList.map( name => {
-                return <li>{name}</li>
+            {nameList.map( (name, id) => {
+                return <li key={id}>{name}</li>
             })}
             <li><CartWidget/></li>
         </ul>
