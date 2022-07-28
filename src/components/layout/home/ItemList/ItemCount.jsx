@@ -29,7 +29,7 @@ const ItemCount = ({initial, stock, nameProduct = 'Producto'}) =>{
             </section>
 
             <hr/>
-            <span>Stock: {stock}</span>
+            <span className="text-stock">Stock: {stock}</span>
             <p>
                 <button className="btn btn-select">
                     Agregar al carrito
